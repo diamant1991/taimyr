@@ -1,0 +1,53 @@
+.clients{
+	position: relative;
+
+	&:after{
+		content: "";
+		display: block;
+		position: absolute;
+		z-index: -1;
+		right: 0;
+		top: 0;
+		width: 344px;
+		height: 250px;
+		background: url(../images/pine-branch-picture-id624698528.png)no-repeat;
+	}
+
+	&:before{
+		content: "";
+		display: block;
+		width: 270px;
+		height: 180px;
+		position: absolute;
+		z-index: -1;
+		left: 60px;
+		bottom: 0;
+		background: url(../images/olenina-vjalenaja.png)no-repeat;
+	}
+	&__item{
+		background: #000;
+		color: #fff;
+		height: 130px;
+		padding: 25px;
+		margin-bottom: 30px;
+	}
+	&__text{
+		font-size: 18px;
+		font-family: $bitter;
+		padding-left: 40px;
+		line-height: 1.4;
+		position: relative;
+
+		&:before{
+			content: "";
+			display: block;
+			width: 25px;
+			height: 3px;
+			background: $red;
+			position: absolute;
+			z-index: 2;
+			left: 0;
+			top: 12px;
+		}
+	}
+}

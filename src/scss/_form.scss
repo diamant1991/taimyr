@@ -1,0 +1,52 @@
+.form-control{
+	display: block;
+	width: 100%;
+	height: 45px;
+	padding-left: 15px;
+	padding-right: 40px;
+	background: #f2f2f2;
+	border: 0;
+	outline: 0;
+	font-family: $font;
+	font-size: 14px;
+}
+.search-submit{
+	position: absolute;
+	z-index: 2;
+	right: 10px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.form{
+	background: #f5f5f5;
+
+	.btn + .btn{
+		margin-left: 25px;
+	}
+
+	&__text{
+		max-width: 365px;
+		font-size: 18px;
+		line-height: 1.5;
+		position: relative;
+
+		&__content{
+			position: relative;
+			z-index: 2;
+		}
+
+		&:before{
+			content: "";
+			display: block;
+			width: 141px;
+			height: 288px;
+			position: absolute;
+			left: -75px;
+    	top: -150px;
+			background: url(../images/olen.png)no-repeat;
+		}
+	}
+	p{
+		color: #666666;
+	}
+}

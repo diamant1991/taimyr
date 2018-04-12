@@ -1,0 +1,74 @@
+header.header
+	.top-panel
+		.container
+			.row.no-gutters.justify-content-between.align-items-center
+				.top-panel__item.hidden-md
+					span.middle.gps-icon
+					span.middle Красноярск, ул. Дубровинского, 110, оф. 605
+				.top-panel__item
+					span.middle.time-icon.hidden-md
+					span.middle
+						| Принимаем заказы: 
+						b с 9-00 до 22-00
+				.top-panel__item.hidden-md
+					span.middle В Красноярске сейчас:
+					span.time.middle 22 : 18 : 36
+				.hamburger-box.visible-md
+					.hamburger-inner
+	.header-center
+		.container
+			.row.no-gutters.justify-content-between.align-items-center
+				.logo
+					a(href="#")
+						img(src="images/logo.png", alt="")
+				.search.hidden-md
+					form(action="")
+						input(type="text", placeholder="Поиск по сайту").form-control
+						button(type="submit").search-submit
+				.get-call.hidden-md
+					a(href="#").btn Заказать звонок
+				.phone
+					div 8 (908) 224-22-44
+					div 8 (950) 422-24-40
+	nav.nav.hidden-md
+		.container
+			.row.no-gutters.justify-content-between.align-items-center
+				.catalog-btn
+					a(href="#")
+						span.middle.burger-icon
+						span.middle Каталог товаров
+					.dropdown
+						.dropdown-content
+							ul
+								li
+									a(href="#") Оленина
+									ul
+										li
+											a(href="#") Свежемороженая
+										li
+											a(href="#") Субпродукты
+								li
+									a(href="#") Плуфабрикаты из оленины
+								li
+									a(href="#") Деликатесы из оленины
+								li
+									a(href="#") Рыба
+								li
+									a(href="#") Дикоросы
+				ul.menu
+					li
+						a(href="#") Окомпании
+					li
+						a(href="#") Доставка
+					li
+						a(href="#") Гдекупить
+					li
+						a(href="#") Оптовикам
+					li
+						a(href="#") Контакты
+				.basket
+					a(href="#")
+						.middle.cart-icon
+						.middle
+							.basket__title Корзина (5)
+							.basket__price 27090 руб.

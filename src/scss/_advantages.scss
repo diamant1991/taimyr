@@ -1,0 +1,19 @@
+.advantages{
+	background: #f5f5f5;
+
+	&__item{
+		margin-top: 75px;
+
+		&:first-child,
+		&:nth-child(2){
+			margin-top: 0;
+		}
+
+		p{
+			line-height: 1.5;
+		}
+	}
+	&__icon{
+		width: 75px;
+	}
+}
