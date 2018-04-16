@@ -51,6 +51,12 @@ h3{
 .text-block{
 	font-size: 16px;
 
+	a{
+		color: $red;
+		font-weight: bold;
+		display: inline-block;
+		margin-top: 20px;
+	}
 	h2{
 		margin-bottom: 40px;
 	}

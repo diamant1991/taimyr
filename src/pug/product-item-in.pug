@@ -1,0 +1,28 @@
+.product__item
+	.product__img.row.no-gutters.align-items-center
+		div
+			img(src="http://via.placeholder.com/220x115", alt="")
+	.product__name
+		a(href="#") Гуляш, нарезка «кубик»
+	.product__info.row.no-gutters.align-items-center.justify-content-between
+		.product__info__text
+			| свежемороженая без кости вакуумная упаковка
+		.status высший сорт
+	.product__price 1300 Р/кг
+	.product__count.row.no-gutters.align-items-center.justify-content-between
+		select.select-item.select-item--small
+			option 1 кг
+			option 2 кг
+			option 3 кг
+		.product-number.clearfix
+			a(href="#").product-number__btn.product-number__btn--down
+			input(type="text" value="1").product-number__field
+			a(href="#").product-number__btn
+	.product__footer.row.no-gutters.align-items-center.justify-content-between
+		.product__total
+			.product__total__title Итого:
+			.product__total__price 1300 Р
+		a(href="#").btn.btn-grey 
+			span.table-cell.btn-grey__icon
+				span.ok-icon.middle
+			span.table-cell Товар в корзине

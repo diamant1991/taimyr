@@ -15,7 +15,7 @@
 		color: #fff;
 		border: 0;
 		font-size: 16px;
-		padding: 18px 40px;
+		padding: 18px 35px;
 		font-weight: bold;
 	}
 }
@@ -27,4 +27,25 @@
 }
 .btn-white{
 	color: #fff;
+}
+.btn-download{
+	margin: 50px 0;
+}
+.btn-filter{
+	padding: 10px 20px;
+}
+.btn-red--small{
+	font-size: 15px;
+	padding: 15px 29px;
+}
+.btn-grey{
+	max-width: 140px;
+	padding: 7px 10px;
+	border-color: #e6e6e6 !important;
+	color: #000 !important;
+	background: #fff !important;
+
+	&__icon{
+		width: 35px;
+	}
 }

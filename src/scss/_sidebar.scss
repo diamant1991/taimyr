@@ -1,0 +1,99 @@
+.sidebar{
+	width: 270px;
+
+	&__item{
+		background: #f2f2f2;
+		padding: 30px;
+	}
+	&__menu{
+
+		> li{
+			+ li{
+				margin-bottom: 15px;
+			}
+			ul{
+				margin-bottom: 15px;
+
+				a{
+					color: #000;
+					border-radius: 25px;
+					padding: 10px 15px;
+					display: inline-block;
+
+					&.current{
+						background: #d9d9d9;
+					}
+				}
+
+				li{
+					margin-top: 10px;
+				}
+			}
+			> a{
+				font-weight: bold;
+				color: #000;
+			}
+		}
+	}
+	&__filter{
+		margin-top: 40px;
+		border-top: 1px solid #d4d4d4;
+		padding-top: 30px;
+	}
+	&__title{
+		font-weight: bold;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+}
+.download-icon{
+	width: 12px;
+	height: 18px;
+	margin-left: 10px;
+	background: url(../images/download-2.png)no-repeat;
+}
+.timer-icon{
+	width: 30px;
+	height: 21px;
+	background: url(../images/time.png)no-repeat;
+}
+.count-icon{
+	width: 30px;
+	height: 15px;
+	background: url(../images/k-vo.png)no-repeat;
+}
+.recipe{
+	&__img{
+		margin-bottom: 15px;
+	}
+	&__name{
+		font-size: 16px;
+		font-family: $bitter;
+		margin-bottom: 20px;
+
+		a{
+			color: #000;
+
+			&:hover{
+				color: $red;
+				text-decoration: underline;
+			}
+		}
+	}
+	&__info{
+		font-size: 13px;
+
+		&__item{
+			+ div{
+				margin-top: 10px;
+			}
+		}
+	}
+	&__item{
+		+ div{
+			margin-top: 20px;
+			padding-top: 20px;
+			border-top: 1px solid #d4d4d4;
+		}
+	}
+}

@@ -1,0 +1,156 @@
+.content{
+	padding-bottom: 90px;
+}
+.center-content{
+	width: calc(100% - 290px);
+}
+.product-count{
+	font-size: 18px;
+	margin-left: 15px;
+	color: #666;
+	margin-bottom: 7px;
+}
+.filter{
+	padding: 30px;
+	background: #f2f2f2;
+	margin-bottom: 25px;
+}
+.product-header{
+	margin-bottom: 10px;
+}
+.product{
+	&__img{
+		height: 190px;
+
+		> div{
+			text-align: center;
+			width: 100%;
+		}
+	}
+	&__item{
+		border: 1px solid #f2f2f2;
+		padding: 20px;
+		padding-top: 0;
+		margin-bottom: 30px;
+
+		&:hover{
+			box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+		}
+	}
+	&__count{
+		margin-bottom: 30px;
+	}
+	&__name{
+		font-size: 20px;
+		font-family: $bitter;
+		height: 50px;
+		margin-bottom: 10px;
+		overflow: hidden;
+
+		a{
+			color: #000;
+		}
+	}
+	&__total{
+		&__title{
+			color: #888888;
+			font-size: 13px;
+			margin-bottom: 5px;
+		}
+		&__price{
+			font-size: 16px;
+		}
+	}
+
+	&__info{
+		height: 50px;
+		overflow: hidden;
+		margin-bottom: 25px;
+
+		&__text{
+			width: calc(100% - 93px);
+			font-size: 12px;
+			color: #888888;
+		}
+	}
+	&__price{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+}
+.status{
+	width: 75px;
+	font-size: 12px;
+	text-align: center;
+	border: 2px solid #e6e6e6;
+	border-radius: 50px;
+	padding: 8px 5px;
+}
+
+.product-number{
+	border: 1px solid #e0e0e0;
+
+	&__btn{
+		display: block;
+		float: left;
+		width: 33px;
+		height: 35px;
+		text-align: center;
+		line-height: 33px;
+		background: #f2f2f2 url(../images/arrow-2-down.png)no-repeat 50%;
+
+		&--down{
+			background: #f2f2f2 url(../images/arrow-left.png)no-repeat 50%;
+		}
+	}
+	&__field{
+		display: block;
+		float: left;
+		width: 35px;
+		height: 35px;
+		outline: 0;
+		border: 0;
+		text-align: center;
+		font-family: $font;
+		font-weight: bold;
+		font-size: 14px;
+		border-left: 1px solid #e0e0e0;
+		border-right: 1px solid #e0e0e0;
+	}
+}
+.ok-icon{
+	width: 24px;
+	height: 24px;
+	background: url(../images/check-circle.png)no-repeat;
+}
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.catalog-banner{
+	height: 200px;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	margin-bottom: 30px;
+
+	&__name{
+		color: #fff;
+		font-size: 34px;
+		font-family: $bitter;
+		max-width: 240px;
+	}
+
+	> div{
+		width: 100%;
+	}
+}
+.red-arrow{
+	width: 24px;
+	height: 14px;
+	margin-left: 10px;
+	background: url(../images/arrow-2-right.png)no-repeat;
+}
