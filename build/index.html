@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width">
 		<title>
 		</title>
-		<link rel="stylesheet" href="css/main.css?v=1523945182385">
+		<link rel="stylesheet" href="css/main.css?v=1523966344136">
 	</head>
 	<body>
 		<header class="header">
@@ -32,7 +32,7 @@
 								<button class="search-submit" type="submit"></button>
 							</form>
 						</div>
-						<div class="get-call hidden-md"><a class="btn" href="#">Заказать звонок</a></div>
+						<div class="get-call hidden-md"><a class="btn" href="#" data-toggle="modal" data-target="#popup">Заказать звонок</a></div>
 						<div class="phone">
 							<div>8 (908) 224-22-44</div>
 							<div>8 (950) 422-24-40</div>
@@ -392,8 +392,31 @@
 				</div>
 			</div>
 		</footer>
+		<div class="modal modal--black fade" id="popup" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="item-title">Заказать звонок</h2><a class="modal-close" href="#" data-dismiss="modal" aria-label="Close">×</a>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<div class="label">Имя</div>
+							<input class="form-control form-control--white" type="text">
+						</div>
+						<div class="form-group">
+							<div class="label">Телефон</div>
+							<input class="form-control form-control--white" type="text">
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-red" type="submit">Отправить</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/slick.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>

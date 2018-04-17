@@ -43,8 +43,26 @@
 	.hidden-md{
 		display: none;
 	}
+	.about__banner{
+		font-size: 24px;
+		height: 350px;
+	}
+	.quote{
+		padding-left: 0;
+	}
+	.about__banner-descr{
+		font-size: 16px;
+	}
+	.philosophy__content > div{
+		+ div{
+			margin-top: 30px;
+		}
+	}
 	.slider__img{
 		height: 350px;
+	}
+	.about__quality__img{
+		padding: 30px 15px;
 	}
 	.center-content{
 		width: 100%;
@@ -119,6 +137,38 @@
 	.products__descr{
 		margin-top: 20px;
 	}
+	.director{
+		margin-top: 20px;
+	}
+	.about__quote{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.about__text,
+	.about__banner-descr{
+		font-size: 14px;
+	}
+	.quote p{
+		font-size: 14px;
+	}
+	.section--service{
+		font-size: 14px;
+	}
+	.quote{
+		margin-top: 20px;
+
+		&:before{
+			content: none;
+		}
+	}
+	.about__quality__text{
+		font-size: 24px;
+		height: auto;
+		padding: 30px 15px;
+	}
+	.about__quality__text:before{
+		content: none;
+	}
 	.products__descr h3:before{
 		content: none;
 	}
@@ -163,6 +213,16 @@
 	.logo{
 		width: 100%;
 		text-align: center;
+	}
+	.about__quality__text{
+		font-size: 20px;
+	}
+	.about__info__text{
+		max-width: inherit;
+	}
+	.about__info__item{
+		width: 100%;
+		margin-top: 20px;
 	}
 	.phone{
 		width: 100%;
