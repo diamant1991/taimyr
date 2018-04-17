@@ -8,6 +8,13 @@
 	.search{
 		width: 240px;
 	}
+	.filter > div{
+		width: 100%;
+
+		+ div{
+			margin-top: 20px;
+		}
+	}
 	.menu > li + li{
 		margin-left: 15px;
 	}
@@ -38,6 +45,9 @@
 	}
 	.slider__img{
 		height: 350px;
+	}
+	.center-content{
+		width: 100%;
 	}
 	.slider__descr{
 		font-size: 18px;
@@ -115,6 +125,9 @@
 	.products__row + div{
 		margin-top: 30px;
 	}
+	.hidden-sm{
+		display: none;
+	}
 	.section{
 		padding: 40px 0;
 	}
@@ -141,6 +154,9 @@
 				margin-top: 20px;
 			}
 		}
+	}
+	.content{
+		padding-bottom: 30px;
 	}
 }
 @media(max-width: 575px){
