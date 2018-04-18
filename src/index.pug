@@ -5,6 +5,7 @@ append vars
 
 block content
 	include pug/header
+	a(href="#" data-toggle="modal" data-target="#success") success modal
 	include pug/slider
 	include pug/catalog
 	include pug/products
@@ -14,6 +15,14 @@ block content
 	include pug/form
 	include pug/footer
 	include pug/modal
+	.modal.modal--black.fade#success(role="dialog")
+		.modal-dialog
+			.modal-content
+				.modal-header
+					a(href="#", data-dismiss="modal", aria-label="Close").modal-close ×
+					.success-text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quaerat iste architecto ullam tenetur quia, nemo ratione tempora consectetur quos.
+				.modal-footer
+					a(href="#").btn.btn-red Продолжить
 
 
 

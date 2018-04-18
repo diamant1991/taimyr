@@ -43,6 +43,38 @@
 	.hidden-md{
 		display: none;
 	}
+	.menu > li{
+		display: block;
+		margin: 15px 0;
+
+		+ li{
+			margin-left: 0;
+		}
+
+		a{
+			color: #fff;
+		}
+	}
+	.menu-drop{
+		display: none;
+		padding-left: 20px;
+
+		li{
+			margin: 15px 0;
+		}
+	}
+	.menu{
+		margin-bottom: 20px;
+	}
+	.basket{
+		margin-top: 20px;
+	}
+	.basket__price{
+		color: #fff;
+	}
+	.basket__title{
+		color: #fff;
+	}
 	.about__banner{
 		font-size: 24px;
 		height: 350px;

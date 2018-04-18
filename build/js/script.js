@@ -1,5 +1,13 @@
 $('.hamburger-box').click(function(event) {
-	$(this).toggleClass('is-active');
+	var menu = $("#mobile-menu")
+	if(menu.is(":hidden")){
+		$(this).addClass('is-active');
+		menu.show()
+	}
+	else{
+		$(this).removeClass('is-active');
+		menu.hide()
+	}
 });
 
 $('.carousel').slick({
